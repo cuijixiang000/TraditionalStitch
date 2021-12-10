@@ -22,7 +22,6 @@ sudo apt-get install g++
 * [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page)
 ```
 sudo apt-get install libeigen3-dev
-
 ```
 * [Opencv](http://https://github.com/opencv/opencv)	 >=4.0
 ```
