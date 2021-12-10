@@ -16,9 +16,22 @@ Registration](https://deepai.org/publication/deepmeshflow-content-adaptive-mesh-
 ## 编译依赖:
  
 * gcc >= 4.7 (Or  >= VS2017)
+```
+sudo apt-get install g++
+```
 * [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page)
+```
+sudo apt-get install libeigen3-dev
+
+```
 * [Opencv](http://https://github.com/opencv/opencv)	 >=4.0
+```
+sudo apt-get install libopencv-dev   #默认安装Ubuntu对应版本的OpenCV,Ubuntu20默认4.0以上版本
+```
 * [Cmake](https://cmake.org/download/) >=3.1.0
+```
+sudo apt-get install cmake     #安装Ubuntu自带的Cmake
+```
 
 ## TraditionalStitch编译
 
