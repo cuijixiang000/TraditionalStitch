@@ -64,6 +64,6 @@ common/*.cpp
 
 add_library(HomoStitch ${SOURCES})
 #add_library(${PROJECT_NAME} ${SOURCES})
-TARGET_LINK_LIBRARIES(HomoStitch ${OpenCV_LIBS})
+TARGET_LINK_LIBRARIES(HomoStitch ${OpenCV_LIBS} -fopenmp)
 
 SET(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/lib)
